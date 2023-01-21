@@ -1,5 +1,5 @@
 ## ChatGPT Sponsor Blocker
-A extension that automatically removes the sponsor element from ChatGPT website if you are using a specific extension
+A extension that automatically removes the sponsor element from ChatGPT website if you are using a specific extension.
 
 ### How to install it (From [ChatGPT PDF](https://github.com/liady/ChatGPT-pdf))
 #### Install to Chrome/Edge/Brave
