@@ -8,6 +8,9 @@ const observer = new MutationObserver((mutations) => {
           if (element.tagName === 'DIV' && element.getAttribute('id') === 'sponsor') {
               element.remove();
           }
+          if (element.tagName === 'DIV' && element.getAttribute('id') === 'nav-footer') {
+              element.style.minHeight = '100px';
+          }
       }
   }
 });
