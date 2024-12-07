@@ -1,17 +1,20 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "ChatGPT Sponsor Blocker",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Remove the sponsor element from ChatGPT website if you are using a specific extension.",
     "author":"qing762",
-    "homepage_url":"https://qingbotcommand.netlify.com/",
+    "homepage_url":"https://qing762.is-a.dev",
     "permissions": [
         "activeTab"
     ],
+    "icons": {
+      "128": "icon128.png"
+    },
     "content_scripts": [
         {
-            "matches": ["https://chat.openai.com/*"],
-            "js": ["popup.js"]
+            "matches": ["https://chat.openai.com/*", "https://chatgpt.com/*"],
+            "js": ["content.js"]
         }
     ]
 }
